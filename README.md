@@ -1,8 +1,8 @@
-### Brownian Dynamics Simulation on CPUs for Cell Entry of Soft Active Particles ###
+### Langevin Dynamics Simulation on CPUs for Cell Entry of Soft Active Particles ###
 
 # Overview
 
-This project implements a Brownian Dynamics simulation for cell entry of soft active particles. 
+This project implements a Langevin Dynamics simulation for cell entry of soft active particles. 
 The simulation is designed to study the nonequilibrium interaction and dynamics in endocytosis process. 
 The program is written in Fortran and is optimized for CPU execution.
 
@@ -31,7 +31,7 @@ GNU Fortran (gfortran)
 
 # Installation Guide:
 
-This directory contains the Fortran source code for the Brownian Dynamics simulation. 
+This directory contains the Fortran source code for the Langevin Dynamics simulation. 
 The main program is in the file bd.f90, while parameters are in the file module.f90.
 
 To compile the code, run:
